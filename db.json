@@ -1,23 +1,4 @@
 {
-   "recordSetCount":6,
-   "metaData":{
-      "price":"1"
-   },
-   "resourceId":"https://www.demo.salmon-gcp.com:80/search/resources/store/1/productview/byCategory/10023?langId=-1&catalogId=10502&currency=USD&responseFormat=json",
-   "breadCrumbTrailEntryViewExtended":[
-      {
-         "0":{
-            "label":"Electronics",
-            "type_":"FACET_ENTRY_CATEGORY",
-            "value":"6"
-         },
-         "1":{
-            "label":"Tablets",
-            "type_":"FACET_ENTRY_CATEGORY",
-            "value":"10023"
-         }
-      }
-   ],
    "breadCrumbTrailEntryView":[
       {
          "label":"Electronics",
@@ -433,92 +414,8 @@
                "extendedData":{
                   "uniqueId":"11211410599101958583685840123494848325048481253250484841"
                }
-            },
-            {
-               "count":1,
-               "label":"({200 300} 300)",
-               "value":"price_USD%3A%28%7B200+300%7D+300%29",
-               "extendedData":{
-                  "uniqueId":"11211410599101958583685840123504848325148481253251484841"
-               }
-            },
-            {
-               "count":2,
-               "label":"({300 400} 400)",
-               "value":"price_USD%3A%28%7B300+400%7D+400%29",
-               "extendedData":{
-                  "uniqueId":"11211410599101958583685840123514848325248481253252484841"
-               }
-            },
-            {
-               "count":1,
-               "label":"({400 500} 500)",
-               "value":"price_USD%3A%28%7B400+500%7D+500%29",
-               "extendedData":{
-                  "uniqueId":"11211410599101958583685840123524848325348481253253484841"
-               }
-            },
-            {
-               "count":2,
-               "label":"({500 *})",
-               "value":"price_USD%3A%28%7B500+*%7D%29",
-               "extendedData":{
-                  "uniqueId":"11211410599101958583685840123534848324212541"
-               }
             }
          ]
-      },
-      {
-         "value":"mfName_ntk_cs",
-         "entry":[
-            {
-               "label":"Adelee Plus",
-               "value":"mfName_ntk_cs%3A%22Adelee+Plus%22",
-               "count":"2",
-               "extendedData":{
-                  "uniqueId":"-1002651001011081011013280108117115"
-               }
-            },
-            {
-               "label":"DVR Technics",
-               "value":"mfName_ntk_cs%3A%22DVR+Technics%22",
-               "count":"2",
-               "extendedData":{
-                  "uniqueId":"-100268868232841019910411010599115"
-               }
-            },
-            {
-               "label":"Eye Dee Team",
-               "value":"mfName_ntk_cs%3A%22Eye+Dee+Team%22",
-               "count":"2",
-               "extendedData":{
-                  "uniqueId":"-1002691211013268101101328410197109"
-               }
-            }
-         ],
-         "name":"ManufacturerName",
-         "extendedData":{
-            "allowMultipleValueSelection":"false",
-            "maximumValuesToDisplay":"20",
-            "groupId":"0",
-            "allValuesReturned":true,
-            "fname":"$$$_Brand",
-            "keyword_search":"1",
-            "propertyname":"facet",
-            "propertyvalue":"mfName_ntk_cs",
-            "displayable":"1",
-            "facet_id":"-1000",
-            "srchattr_id":"-1002",
-            "zero_display":"0",
-            "selection":"0",
-            "group_id":"0",
-            "displaySequence":"0.0",
-            "storeent_id":"0",
-            "sortorder":"0",
-            "max_display":"20",
-            "fdesc":"$$$_The manufacturer",
-            "srchattridentifier":"_cat.ManufacturerName"
-         }
       }
    ]
 }
